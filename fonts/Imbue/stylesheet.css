@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Imbue';
+    src: url('Imbue-Thin.eot');
+    src: local('Imbue Thin'), local('Imbue-Thin'),
+        url('Imbue-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Imbue-Thin.woff2') format('woff2'),
+        url('Imbue-Thin.woff') format('woff'),
+        url('Imbue-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+

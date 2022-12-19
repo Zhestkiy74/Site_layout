@@ -1,0 +1,608 @@
+body {
+position: relative;
+width: 1440px;
+height: 3348px;
+margin: 0 auto;
+
+background: #e5e5e5;
+}
+a:link {
+    color: #141414; /* Цвет ссылок */
+    text-decoration: none
+   }
+   a:visited {
+    color: #141414; /* Цвет посещенных ссылок */
+    text-decoration: none
+   }
+   a:active {
+    color: #f00; /* Цвет активной ссылки */
+    text-decoration: none
+   }
+    a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: none
+    }
+.navline {
+    position: absolute;
+width: 1440.01px;
+height: 1.41px;
+left: 0px;
+top: 120px;
+background-color: black;
+border: 1px solid #000000;
+transform: rotate(-0.04deg);
+}
+.logo1 {
+    position: absolute;
+width: 90px;
+height: 90px;
+left: 135px;
+top: 9px;
+}
+.navmain {
+    position: absolute;
+    width: 81px;
+    height: 20px;
+    left: 511px;
+    top: 47px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    
+    color: #000000;
+    
+
+}
+.am {
+    position: absolute;
+    width: 83px;
+    height: 20px;
+    left: 613px;
+    top: 47px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    
+    color: #000000;
+    
+}
+.mw {
+    position: absolute;
+    width: 122px;
+    height: 20px;
+    left: 717px;
+    top: 48px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    
+    color: #000000;
+}
+.order {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    left: 860px;
+    top: 49px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    
+    color: #000000;
+    
+}
+.line1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 637px;
+height: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;
+    
+    position: absolute;
+    width: 637px;
+    height: 42px;
+    left: 431px;
+    top: 260px;
+}
+.biglogo {
+    position: absolute;
+width: 250.89px;
+height: 246.11px;
+left: 595px;
+top: 369px;
+
+}
+.scline1 {
+    position: absolute;
+    width: 1169.98px;
+    height: 0.81px;
+    left: 135px;
+    top: 770.81px;
+    
+    border: 1px solid #000000;
+    transform: rotate(-0.04deg);
+}
+.scline2 {
+    position: absolute;
+    width: 1169.98px;
+    height: 1.19px;
+    left: 135px;
+    top: 1344px;
+    
+    border: 1px solid #000000;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.zhestokiy {
+    box-sizing: border-box;
+
+position: absolute;
+width: 303px;
+height: 538px;
+left: 178px;
+top: 788px;
+
+background: url(zhest2.png);
+border: 2px solid #000000;
+}
+.abme {
+    position: absolute;
+width: 657px;
+height: 38px;
+left: 648px;
+top: 830px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+}
+.me2 {
+    position: absolute;
+width: 557px;
+height: 71px;
+left: 648px;
+top: 877px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.myskills {
+    position: absolute;
+width: 553px;
+height: 34px;
+left: 648px;
+top: 967px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+.skill1 {
+    position: absolute;
+width: 553px;
+height: 24px;
+left: 648px;
+top: 1020px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.skill2 {
+    position: absolute;
+width: 553px;
+height: 22px;
+left: 648px;
+top: 1066px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+.pic1 {
+    box-sizing: border-box;
+
+position: absolute;
+width: 455px;
+height: 355.75px;
+left: 230px;
+top: 1394px;
+
+background: url(ux.png);
+border: 2px solid #000000;
+}
+.pic2 {
+    box-sizing: border-box;
+
+position: absolute;
+width: 439.31px;
+height: 366.59px;
+left: 810px;
+top: 1394px;
+
+background: url(headph.png);
+border: 2px solid #000000;
+}
+.pic3 {
+    box-sizing: border-box;
+
+position: absolute;
+width: 455px;
+height: 359.65px;
+left: 225px;
+top: 1962px;
+
+background: url(per.png);
+border: 2px solid #000000;
+}
+.pic4 {
+    box-sizing: border-box;
+
+position: absolute;
+width: 455px;
+height: 354.98px;
+left: 800px;
+top: 1962px;
+
+background: url(sneak.png);
+border: 2px solid #000000;
+}
+.ptext1 {
+    position: absolute;
+    width: 455px;
+    height: 47px;
+    left: 225px;
+    top: 1762px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #000000;
+}
+.ptext2 {
+    position: absolute;
+    width: 439px;
+    height: 49px;
+    left: 810px;
+    top: 1766px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #000000;
+}
+.ptext3 {
+    position: absolute;
+    width: 455px;
+    height: 28px;
+    left: 225px;
+    top: 2330px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+.ptext4 {
+    position: absolute;
+    width: 452px;
+    height: 48px;
+    left: 795px;
+    top: 2330px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+.btn1 {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22px 25px;
+gap: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+
+position: absolute;
+width: 455px;
+height: 72px;
+left: 205px;
+top: 1822px;
+
+background: #A5A5A5;
+}
+.btn2 {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22px 25px;
+gap: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+position: absolute;
+width: 439px;
+height: 72px;
+left: 796px;
+top: 1822px;
+
+background: #A5A5A5;
+}
+.btn3 {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22px 25px;
+gap: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+position: absolute;
+width: 455px;
+height: 72.37px;
+left: 205px;
+top: 2389.63px;
+
+background: #A5A5A5;
+}
+.btn4 {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22px 25px;
+gap: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+position: absolute;
+width: 455px;
+height: 71.43px;
+left: 780px;
+top: 2390.57px;
+
+background: #A5A5A5;
+}
+.line5 {
+    position: absolute;
+width: 1169.98px;
+height: 0.81px;
+left: 135px;
+top: 2564.81px;
+
+border: 1px solid #000000;
+transform: rotate(-0.04deg);
+}
+.line6 {
+    position: absolute;
+width: 515px;
+height: 0px;
+left: 400px;
+top: 2950px;
+
+border: 1px solid #000000;
+transform: rotate(89.99deg);
+}
+.wtime {
+    position: absolute;
+width: 292px;
+height: 57px;
+left: 134px;
+top: 2722px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+.wtime2 {
+    position: absolute;
+width: 307px;
+height: 65px;
+left: 135px;
+top: 2789px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+.phone {
+    position: absolute;
+    width: 307px;
+    height: 30px;
+    left: 134px;
+    top: 2905px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+.phone2 {
+    position: absolute;
+width: 262px;
+height: 28px;
+left: 135px;
+top: 2945px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+}
+.post1 {
+    position: absolute;
+width: 307px;
+height: 35px;
+left: 134px;
+top: 2996px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+.post2 {
+    position: absolute;
+width: 307px;
+height: 36px;
+left: 135px;
+top: 3031px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+.form1 {
+    box-sizing: border-box;
+
+position: absolute;
+width: 439.31px;
+height: 366.59px;
+left: 810px;
+top: 2750px;
+
+}
+.line10 {
+    position: absolute;
+width: 1438.85px;
+height: 0.97px;
+left: 0px;
+top: 3236px;
+
+border: 1px solid #000000;
+transform: rotate(-0.04deg);
+}
+.vk {
+    position: absolute;
+width: 72.28px;
+height: 75px;
+left: 1125px;
+top: 3258px;
+background: url(VK.svg);
+}
+.tg {
+    position: absolute;
+width: 72.28px;
+height: 75px;
+left: 1233px;
+top: 3258px;
+
+background: url(Telegram.svg);
+}
+.mlogo {
+    position: absolute;
+width: 90px;
+height: 90px;
+left: 135px;
+top: 3251px;
+
+}
+.line11 {
+    position: absolute;
+    width: 1438.85px;
+    height: 0.97px;
+    left: 0px;
+    top: 3350px;
+    
+    border: 1px solid #000000;
+    transform: rotate(-0.04deg);
+}
